@@ -40,9 +40,8 @@ export default ({inputs, onInputChange}) => {
                         <Form.Control
                             className='text-center fs-5 font-monospace'
                             type="number"
-                            value={formatWeight(inputs.weight)}
+                            value={inputs.weight}
                             onChange={handle}
-                            step={0.5}
                             name='weight' id='formWeight'
                         />
                         <InputGroup.Text>Kg</InputGroup.Text>
